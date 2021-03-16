@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    margin: 2px 34px;
+}
+
+.logo img {
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#navbar {
+    top: 0;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul {
+    font-family: 'Baloo Bhaina 2', cursive;
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 3px 22px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    display: block;
+    color: white;
+    background-color: brown;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    /* height: 400px; */
+}
+
+#home h1 {
+    color: white;
+    font-size: 2.0rem;
+    padding: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    padding-top: 30px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(../image/pexels-valeria-boltneva-842571.jpg)no-repeat center center/cover;
+    height: 690px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: brown;
+    color: black;
+}
+
+#services {
+    padding: 70px;
+    /* border: 2px solid black; */
+    margin-top: 130px;
+    display: flex;
+}
+
+#services .box {
+    margin: 4px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #fff0d9a6;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#services .box img {
+    height: 150px;
+}
+
+#services-container h1 {
+    top: 190px;
+    position: relative;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.box p {
+    font-family: 'Bree Serif', serif;
+}
+
+#client-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client img {
+    width: 100px;
+    padding: 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background-image: url(../image/food.jpg);
+    height: 180px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.95;
+}
+
+.family {
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-box input,
+#contact-box textarea {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+    padding: 0.3rem;
+    margin: 5px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url(../image/conatact.jpg);
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#contact h1 {
+    font-size: 2.2rem;
+}
+
+.form-group #feedback {
+    padding-bottom: 100px;
+}
+
+#btn {
+    padding: 30px 112px;
+}
+
+#btn button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 4px 24px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#contact h1 {
+    padding-top: 15px;
+}
+
+#btn button:hover {
+    color: black;
+    background-color: brown;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+label {
+    padding-left: 10px;
+}

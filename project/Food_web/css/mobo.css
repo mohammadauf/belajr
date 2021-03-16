@@ -1,0 +1,46 @@
+#services .box img {
+    height: 100px;
+}
+
+#navbar ul li a {
+    padding: 3px 5px;
+}
+
+.client1 img {
+    width: 50px;
+    padding: 20px;
+}
+
+.client2 img {
+    width: 50px;
+    padding: 20px;
+}
+
+.client3 img {
+    width: 50px;
+    padding: 20px;
+}
+
+#client-section::before {
+    height: 95px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 95%;
+}
+
+#client-section::before {
+    height: 77px;
+}
+
+.btn {
+    font-size: 0.9rem;
+    padding: 4px 6px;
+}
+
+#btn button {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 2px 5px;
+}

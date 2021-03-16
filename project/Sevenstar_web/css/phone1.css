@@ -1,0 +1,28 @@
+  #navbar {
+      flex-direction: column;
+  }
+  
+  #logo img {
+      width: 50px;
+      height: 50px;
+  }
+  
+  #home {
+      margin: 0;
+  }
+  /* #home ::before {
+      height: 494px;
+  } */
+  
+  #services {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 250px;
+  }
+  /* #servicesh1 h1 {
+      position: relative;
+      top: 270px;
+      text-align: center;
+  } */

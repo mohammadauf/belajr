@@ -1,0 +1,12 @@
+#home::before {
+    height: 600px;
+}
+
+#navbar ul {
+    padding-bottom: 8px;
+}
+
+#navbar ul li a {
+    padding: 0px 5px;
+    padding-bottom: 8px;
+}
